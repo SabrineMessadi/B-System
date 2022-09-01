@@ -1,0 +1,112 @@
+/******************header***************/
+
+header {
+  background: #00abd1;
+  padding: 0 15px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.hero img {
+  height: auto;
+  width: 320px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid rgb(234, 234, 234);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 15px 45px;
+}
+
+/********************media queries****************/
+@media (min-width: 600px) {
+  /*******NavBar***/
+  .menu {
+    padding-top: 0;
+  }
+  .menuHumberger {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+    height: 30px;
+  }
+  .navBar {
+    display: block;
+  }
+  .navBar a {
+    display: inline-block;
+    padding: 25px 9px;
+  }
+  .navBar a:hover {
+    background-color: #0b87a3;
+  }
+  /******loop+yourArea****/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .loop {
+    display: inline-block;
+    margin: 10px;
+    width: 13px;
+    height: 13px;
+  }
+  .yourArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .yourArea a:nth-child(1) {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  /*******text-header********/
+  .hero {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero img {
+    padding: 30px;
+    order: 1;
+  }
+  .text-head {
+    padding: 10px 20px;
+    flex: 2;
+    height: auto;
+  }
+
+  .text-head h1,
+  .text-head p,
+  .text-head div {
+    text-align: left;
+    margin: 20px 0;
+  }
+  .text-head p,
+  .text-head a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .text-head a {
+    padding: 5px 25px;
+    border-radius: 2px;
+  }
+}

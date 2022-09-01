@@ -1,0 +1,93 @@
+/*******************about us**************/
+.about-us {
+  padding: 40px 0;
+  background-color: white;
+  color: black;
+}
+.about-us h2 {
+  font-weight: 400;
+}
+.temoignage {
+  max-width: 290px;
+  padding: 40px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.191);
+  box-shadow: 1px 1px 1px 1px rgb(227, 227, 227);
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.temoignage p {
+  opacity: 0.5;
+}
+.temoignage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nom span {
+  color: white;
+  font-weight: 500;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.round1 {
+  background-color: #00aa79;
+}
+.round2 {
+  background-color: #007ef3;
+}
+.round3 {
+  background-color: #00abd1;
+}
+.nom p {
+  color: black;
+  opacity: 1;
+  font-size: 12px;
+  font-weight: 400;
+}
+.nom p:nth-child(1) {
+  font-weight: bold;
+}
+.trait {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.dache {
+  display: inline-block;
+  width: 20px;
+  height: 4px;
+  /*margin: 10px 10px;*/
+  background: #c7c3c3;
+  border-radius: 3px;
+}
+
+.activ {
+  background-color: rgb(63, 63, 65);
+}
+
+/******************media queries*************/
+
+@media (min-width: 600px) {
+  .trait {
+    display: none;
+  }
+  .temoignages {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .temoignage {
+    display: inline-block;
+    margin: 0 15px;
+  }
+}

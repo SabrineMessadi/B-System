@@ -1,0 +1,36 @@
+/*******************footer******************/
+#application {
+  border-top: 3px solid rgb(213, 213, 213);
+  border-bottom: 3px solid rgb(213, 213, 213);
+}
+.applications {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.all-rights {
+  padding: 40px 20px;
+  color: black;
+}
+.all-rights img {
+  display: block;
+  width: 180px;
+  margin: 20px auto;
+}
+.all-rights p {
+  opacity: 0.5;
+}
+
+/******************media queries*************/
+
+@media (min-width: 600px) {
+  .applications {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .all-rights img {
+    width: 150px;
+    height: auto;
+  }
+}

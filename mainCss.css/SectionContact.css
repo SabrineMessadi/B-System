@@ -1,0 +1,129 @@
+/******************contact us*****************/
+#contact-us {
+  color: black;
+  padding: 25px;
+}
+.contacter-nous p {
+  opacity: 0.5;
+}
+/***formulaire***/
+form {
+  margin: auto;
+}
+input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  opacity: 0.85;
+}
+.border {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.703);
+}
+textarea {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.5;
+  font-weight: 500;
+}
+.check {
+  width: 25px;
+  height: 25px;
+  box-shadow: 2px 2px rgb(218, 218, 218);
+}
+label {
+  margin: 3px 0 0 10px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+.check-box {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit {
+  width: 200px;
+  font-weight: 700;
+  display: block;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 20px auto;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #00abd1;
+  color: white;
+  opacity: 1;
+}
+/***call-us***/
+.call-us {
+  background-color: #dff0ff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.women {
+  display: none;
+}
+.ecouteurs {
+  display: block;
+  margin-bottom: 10px;
+}
+.telephone {
+  margin-top: 20px;
+}
+.map {
+  background-color: rgb(234, 234, 234);
+  padding: 20px;
+  border-radius: 5px;
+}
+.mapImg {
+  display: block;
+  margin-bottom: 20px;
+}
+.find {
+  color: #86c0f7;
+}
+/******************media queries*************/
+
+@media (min-width: 600px) {
+  .contacter-nous {
+    max-width: 320px;
+    margin-right: 10px;
+  }
+  .contact {
+    max-width: 320px;
+  }
+  .call-us {
+    width: 350px;
+  }
+  .form {
+    width: 350px;
+  }
+  .box {
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .women {
+    display: inline-block;
+    width: 80px;
+    height: auto;
+  }
+  .ecouteurs {
+    display: none;
+  }
+  .contacter-nous h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .contacter-nous p {
+    text-align: left;
+  }
+}
